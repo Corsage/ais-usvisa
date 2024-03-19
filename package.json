@@ -1,0 +1,19 @@
+{
+  "name": "ais-usvisa",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.28",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.7.1"
+  },
+  "scripts": {
+    "dev": "tsx ./main.ts"
+  },
+  "dependencies": {
+    "@hammerhq/logger": "^2.2.0"
+  }
+}
